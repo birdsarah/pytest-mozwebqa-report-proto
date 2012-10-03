@@ -1,0 +1,526 @@
+<!DOCTYPE html><html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en-US" dir="ltr"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Advanced Search | Mozilla Support</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="/media/img/favicon.ico">
+  <link rel="search" type="application/opensearchdescription+xml" title="Firefox Help" href="/en-US/search/xml">
+  
+  <link rel="stylesheet" media="screen,projection,tv" href="/media/css/new-theme-min.css?build=2420975">
+  <link rel="stylesheet" media="print" href="/media/css/print-min.css?build=2420975">
+      <link rel="stylesheet" media="screen,projection,tv" href="/media/css/search-min.css?build=2420975">
+  
+          <link href="//www.mozilla.org/tabzilla/media/css/tabzilla.css" rel="stylesheet">
+  
+  <!--[if lte IE 7]>
+<link rel="stylesheet" media="screen,projection,tv" href="/media/css/ie-min.css?build=2420975" />
+<![endif]-->
+  <!--[if IE 8]>
+<link rel="stylesheet" media="screen,projection,tv" href="/media/css/ie8-min.css?build=2420975" />
+<![endif]-->
+
+  
+  
+  
+  <!--[if lt IE 9]>
+<script src="/media/js/libs/html5-shiv.js"></script>
+<![endif]-->
+</head>
+<body class="html-ltr advanced_search en-US" data-readonly="false" data-for-os="{&quot;maemo&quot;: 4, &quot;win&quot;: 1, &quot;mac&quot;: 2, &quot;android&quot;: 5, &quot;linux&quot;: 3}" data-for-version="{&quot;m11&quot;: 18, &quot;m10&quot;: 16, &quot;m12&quot;: 20, &quot;m15&quot;: 24, &quot;m14&quot;: 22, &quot;m17&quot;: 28, &quot;m16&quot;: 26, &quot;m9&quot;: 14, &quot;m5&quot;: 7, &quot;m4&quot;: 4, &quot;m7&quot;: 10, &quot;m6&quot;: 8, &quot;fx35&quot;: 2, &quot;fx11&quot;: 17, &quot;fx10&quot;: 15, &quot;fx13&quot;: 21, &quot;fx12&quot;: 19, &quot;fx15&quot;: 25, &quot;fx14&quot;: 23, &quot;fx17&quot;: 29, &quot;fx16&quot;: 27, &quot;fx9&quot;: 13, &quot;fx8&quot;: 11, &quot;fx5&quot;: 5, &quot;fx4&quot;: 1, &quot;fx7&quot;: 9, &quot;fx6&quot;: 6, &quot;fx3&quot;: 3, &quot;m8&quot;: 12}" data-usernames-api="/en-US/users/api/usernames" data-media-url="/media/"><div id="tabzilla-panel" class="tabzilla-closed" tabindex="-1"><div id="tabzilla-contents">  <div id="tabzilla-promo">    <div class="snippet" id="tabzilla-promo-mobile">    <a href="http://www.mozilla.org/firefox/fx/?WT.mc_id=tzfxmobile&amp;WT.mc_ev=click#mobile">     <h4>Fast. Smart. Safe.</h4>     <p>Get Firefox for Android&nbsp;»</p></a>    </div>  </div>  <div id="tabzilla-nav">    <ul>      <li><h2>Mozilla</h2>        <ul>          <li><a href="http://www.mozilla.org/mission/">Mission</a></li>          <li><a href="http://www.mozilla.org/about/">About</a></li>          <li><a href="http://www.mozilla.org/projects/">Projects</a></li>          <li><a href="http://support.mozilla.org/">Support</a></li>          <li><a href="https://developer.mozilla.org">Developer Network</a></li>        </ul>      </li>      <li><h2>Products</h2>        <ul>          <li><a href="http://www.mozilla.org/firefox">Firefox</a></li>          <li><a href="http://www.mozilla.org/thunderbird">Thunderbird</a></li>          <li><a href="http://www.mozilla.org/b2g">Boot to Gecko</a></li>        </ul>      </li>      <li><h2>Innovations</h2>        <ul>          <li><a href="https://webfwd.org/">WebFWD</a></li>          <li><a href="http://mozillalabs.com/">Labs</a></li>          <li><a href="https://www.mozilla.org/webmaker/">Webmaker</a></li>        </ul>      </li>      <li><h2>Get Involved</h2>        <ul>          <li><a href="http://www.mozilla.org/contribute/">Volunteer</a></li>          <li><a href="http://www.mozilla.org/en-US/about/careers.html">Careers</a></li>          <li><a href="http://www.mozilla.org/en-US/about/mozilla-spaces/">Find us</a></li>          <li><a href="https://donate.mozilla.org/">Join us</a></li>        </ul>      </li>      <li id="tabzilla-search">        <a href="http://www.mozilla.org/community/directory.html">Website Directory</a>        <form title="Search Mozilla sites" role="search" action="http://www.google.com/cse">          <input type="hidden" value="002443141534113389537:ysdmevkkknw" name="cx">          <input type="hidden" value="FORID:0" name="cof">          <label for="q">Search</label>          <input type="search" placeholder="Search" id="q" name="q">        </form>      </li>    </ul>  </div></div></div>
+
+  <div id="stage-banner">
+    <div class="close-button">X</div>
+    This is a staging site. The production site is <a href="http://support.mozilla.org">here</a>.
+  </div>
+
+<header>
+  <div class="container_12 cf">
+    <div class="grid_12">
+                      <a href="http://www.mozilla.org/" id="tabzilla" class="tabzilla-closed" role="button" aria-expanded="false" aria-controls="tabzilla-panel" title="Mozilla links">mozilla</a>
+            <div class="cf">
+        <nav id="aux-nav" role="navigation">
+          <ul>
+                                            <li><a href="/en-US/questions/new" class="ask">Ask a question</a></li>
+              <li class="dropdown"><a href="/en-US/user/303584" class="user">birdsarah_test1</a>
+          <ul>
+            <li><a href="/en-US/user/303584">View Profile</a></li>
+            <li><a href="/en-US/users/edit">Edit Profile</a></li>
+            <li><a href="/en-US/dashboard">Dashboard</a></li>
+            <li><a href="/en-US/users/settings">Settings</a></li>
+            <li><a href="/en-US/users/logout" class="sign-out">Sign Out</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="/en-US/messages">
+            Inbox
+                      </a>
+        </li>
+            
+                                    <li><a href="/en-US/locales" class="locale-picker">English</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="cf">
+                <a href="/en-US/home"><img class="logo" alt="mozilla support" src="/media/img/mozilla-support.png"></a>
+      </div>
+      <nav id="main-nav">
+        <ul class="cf">
+          <li><a href="/en-US/products">Products &amp; Services</a></li>
+          <li><a href="/en-US/kb">Help Articles</a></li>
+          <li><a href="/en-US/topics/hot">Hot Topics</a></li>
+          <li><a href="/en-US/kb/mozilla-news">Mozilla News</a></li>
+          <li><a href="/en-US/kb/superheroes-wanted">Help Other Users</a></li>
+          <li><a href="/en-US/kb/suggestion-box">Suggestion Box</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+    <div class="breadcrumbs">
+    <div class="container_12 cf">
+      <ol id="breadcrumbs" class="grid_12 cf">
+                              <li><a href="/en-US/home">Home</a></li>
+                                        <li>Advanced Search</li>
+                        </ol>
+    </div>
+  </div>
+
+
+<div class="container_12 cf">
+  <div class="grid_12">
+    
+      </div>
+
+      <aside class="grid_3">
+                      </aside>
+  
+    <div class="grid_3">
+              <ul class="sidebar-nav sidebar-folding">
+          <li id="for-contributors-sidebar">
+        <a href="#">For Contributors</a>
+        <ul class="sidebar-nav">
+          <li><a href="/en-US/kb/superheroes-wanted">Quickstart Guide</a></li>
+  <li><a href="/en-US/kb/contributor-news-resources">News &amp; Resources</a></li>
+  <li><a href="/en-US/forums">Contributor Forums</a></li>
+  <li><a href="/en-US/kb/all/discussions">Article Discussions</a></li>
+  <li><a href="/en-US/localization">Knowledge Base Dashboard</a></li>
+  <li><a href="/en-US/army-of-awesome">Help on Twitter</a></li>
+  <li><a href="/en-US/questions">Support Forum Home</a></li>
+    <li><a href="/en-US/gallery/">Media Gallery</a></li>
+  <li><a href="/en-US/search?a=2">Advanced Search</a></li>
+    <li><a href="/en-US/kpi/dashboard">KPI Dashboard</a></li>
+        </ul>
+      </li>
+          </ul>
+      
+  </div>
+  <div class="grid_9">
+    <div class="content-box cf" id="advanced-search">
+              <h1 class="nomargin">Advanced Search</h1>
+        <div id="search-tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+          <span id="where" style="display: none"></span>
+          <ul class="tab-strip cf ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" id="advanced-search-tabs">
+            <li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a title="Search the Knowledge Base" class="tablink" href="#kb">Knowledge Base</a></li>
+            <li class="ui-state-default ui-corner-top"><a title="Search the Support Questions" class="tablink" href="#support">Support Questions</a></li>
+            <li class="ui-state-default ui-corner-top"><a title="Search the Discussion Forums" class="tablink" href="#discussion">Discussion Forums</a></li>
+          </ul>
+          <div id="tab-wrapper">
+            <form id="kb" method="get" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+              <div class="container cf">
+                <label for="kb_q">Article contains</label>
+                <input name="q" class="auto-fill" id="kb_q" placeholder="crashes on youtube" value="" type="text">
+              </div>
+
+              <div class="container cf">
+                <label for="id_language">Language</label>
+                <select name="language" id="id_language">
+<option value="ach">Acholi</option>
+<option value="ak">Akan</option>
+<option value="ar">عربي</option>
+<option value="as">অসমীয়া</option>
+<option value="ast">Asturianu</option>
+<option value="be">Беларуская</option>
+<option value="bg">Български</option>
+<option value="bn-BD">বাংলা (বাংলাদেশ)</option>
+<option value="bn-IN">বাংলা (ভারত)</option>
+<option value="bs">Bosanski</option>
+<option value="ca">català</option>
+<option value="cs">Čeština</option>
+<option value="da">Dansk</option>
+<option value="de">Deutsch</option>
+<option value="el">Ελληνικά</option>
+<option value="en-US" selected="selected">English</option>
+<option value="eo">Esperanto</option>
+<option value="es">Español</option>
+<option value="et">eesti keel</option>
+<option value="eu">Euskara</option>
+<option value="fa">فارسی</option>
+<option value="ff">Pulaar-Fulfulde</option>
+<option value="fi">suomi</option>
+<option value="fr">Français</option>
+<option value="fur">Furlan</option>
+<option value="fy-NL">Frysk</option>
+<option value="ga-IE">Gaeilge (Éire)</option>
+<option value="gd">Gàidhlig</option>
+<option value="gl">Galego</option>
+<option value="gu-IN">ગુજરાતી</option>
+<option value="he">עברית</option>
+<option value="hi-IN">हिन्दी (भारत)</option>
+<option value="hr">Hrvatski</option>
+<option value="hu">Magyar</option>
+<option value="hy-AM">Հայերեն</option>
+<option value="id">Bahasa Indonesia</option>
+<option value="ilo">Iloko</option>
+<option value="is">íslenska</option>
+<option value="it">Italiano</option>
+<option value="ja">日本語</option>
+<option value="kk">Қазақ</option>
+<option value="km">ខ្មែរ</option>
+<option value="kn">ಕನ್ನಡ</option>
+<option value="ko">한국어</option>
+<option value="lg">Luganda</option>
+<option value="lt">lietuvių kalba</option>
+<option value="mai">मैथिली</option>
+<option value="mk">Македонски</option>
+<option value="ml">മലയാളം</option>
+<option value="mn">Монгол</option>
+<option value="mr">मराठी</option>
+<option value="ms">ﺐﻫﺎﺳ ﻡﻼﻳﻭ</option>
+<option value="my">မြန်မာဘာသာ</option>
+<option value="nb-NO">Norsk bokmål</option>
+<option value="ne-NP">नेपाली</option>
+<option value="nl">Nederlands</option>
+<option value="no">Norsk nynorsk</option>
+<option value="nso">Sepedi</option>
+<option value="pa-IN">ਪੰਜਾਬੀ</option>
+<option value="pl">Polski</option>
+<option value="pt-BR">Português (do Brasil)</option>
+<option value="pt-PT">Português (Europeu)</option>
+<option value="rm">rumantsch</option>
+<option value="ro">română</option>
+<option value="ru">Русский</option>
+<option value="rw">Ikinyarwanda</option>
+<option value="si">සිංහල</option>
+<option value="sk">slovenčina</option>
+<option value="sl">slovenščina</option>
+<option value="son">Soŋay</option>
+<option value="sq">Shqip</option>
+<option value="sr-CYRL">Српски</option>
+<option value="sr-LATN">Srpski</option>
+<option value="sv">Svenska</option>
+<option value="ta-LK">தமிழ் (இலங்கை)</option>
+<option value="ta">தமிழ்</option>
+<option value="te">తెలుగు</option>
+<option value="th">ไทย</option>
+<option value="tr">Türkçe</option>
+<option value="uk">Українська</option>
+<option value="vi">Tiếng Việt</option>
+<option value="zh-CN">中文 (简体)</option>
+<option value="zh-TW">正體中文 (繁體)</option>
+<option value="zu">isiZulu</option>
+</select>
+              </div>
+
+              <div class="container cf">
+                <label for="id_category_0">Category</label>
+                <div class="category checkboxes">
+                  <ul>
+<li><label for="id_category_0"><input checked="checked" type="checkbox" name="category" value="10" id="id_category_0"> Troubleshooting</label></li>
+<li><label for="id_category_1"><input checked="checked" type="checkbox" name="category" value="20" id="id_category_1"> How to</label></li>
+<li><label for="id_category_2"><input type="checkbox" name="category" value="30" id="id_category_2"> How to contribute</label></li>
+<li><label for="id_category_3"><input type="checkbox" name="category" value="40" id="id_category_3"> Administration</label></li>
+<li><label for="id_category_4"><input type="checkbox" name="category" value="50" id="id_category_4"> Navigation</label></li>
+<li><label for="id_category_5"><input type="checkbox" name="category" value="60" id="id_category_5"> Templates</label></li>
+</ul>
+                </div>
+              </div>
+
+              <div class="container cf">
+                <label for="id_product_0">Relevant to</label>
+                <div class="product checkboxes">
+                  <ul>
+<li><label for="id_product_0"><input type="checkbox" name="product" value="firefox" id="id_product_0"> Firefox</label></li>
+<li><label for="id_product_1"><input type="checkbox" name="product" value="mobile" id="id_product_1"> Firefox for mobile</label></li>
+<li><label for="id_product_2"><input type="checkbox" name="product" value="persona" id="id_product_2"> Mozilla Persona</label></li>
+</ul>
+                </div>
+              </div>
+
+              <div class="container cf">
+                <label for="id_topics_0">Topics</label>
+                <div class="topics checkboxes">
+                  <ul>
+<li><label for="id_topics_0"><input type="checkbox" name="topics" value="getting-started" id="id_topics_0"> getting started</label></li>
+<li><label for="id_topics_1"><input type="checkbox" name="topics" value="download-and-install" id="id_topics_1"> download and install</label></li>
+<li><label for="id_topics_2"><input type="checkbox" name="topics" value="privacy-and-security" id="id_topics_2"> privacy and security</label></li>
+<li><label for="id_topics_3"><input type="checkbox" name="topics" value="customize" id="id_topics_3"> customize</label></li>
+<li><label for="id_topics_4"><input type="checkbox" name="topics" value="slowness-or-hanging" id="id_topics_4"> slowness or hanging</label></li>
+<li><label for="id_topics_5"><input type="checkbox" name="topics" value="tips" id="id_topics_5"> tips</label></li>
+<li><label for="id_topics_6"><input type="checkbox" name="topics" value="error-messages" id="id_topics_6"> error messages</label></li>
+<li><label for="id_topics_7"><input type="checkbox" name="topics" value="crashing" id="id_topics_7"> crashing</label></li>
+<li><label for="id_topics_8"><input type="checkbox" name="topics" value="flash" id="id_topics_8"> flash</label></li>
+<li><label for="id_topics_9"><input type="checkbox" name="topics" value="general" id="id_topics_9"> General</label></li>
+<li><label for="id_topics_10"><input type="checkbox" name="topics" value="cookies" id="id_topics_10"> cookies</label></li>
+<li><label for="id_topics_11"><input type="checkbox" name="topics" value="controls" id="id_topics_11"> controls</label></li>
+<li><label for="id_topics_12"><input type="checkbox" name="topics" value="android" id="id_topics_12"> android</label></li>
+<li><label for="id_topics_13"><input type="checkbox" name="topics" value="marketplace" id="id_topics_13"> marketplace</label></li>
+<li><label for="id_topics_14"><input type="checkbox" name="topics" value="sync" id="id_topics_14"> sync</label></li>
+<li><label for="id_topics_15"><input type="checkbox" name="topics" value="websites" id="id_topics_15"> websites</label></li>
+<li><label for="id_topics_16"><input type="checkbox" name="topics" value="hot" id="id_topics_16"> Hot Topics</label></li>
+</ul>
+                </div>
+              </div>
+
+              <div class="container cf">
+                <label for="id_include_archived">Include obsolete articles?</label>
+                <div class="include_archived radios">
+                  <input type="checkbox" name="include_archived" id="id_include_archived">
+                </div>
+              </div>
+
+                              <input type="hidden" name="a" value="1" id="id_a">
+                            <input type="hidden" value="1" name="w">
+
+              <div class="submit-search">
+                <button class="btn btn-important big" data-type="submit">Search Mozilla Support</button>
+                <a class="btn" href="/en-US/search">Use basic search</a>
+              </div>
+            </form>            <form method="get" id="support" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+              <div class="container cf">
+                <label for="support_q">Post contains</label>
+                <input name="q" class="auto-fill" id="support_q" placeholder="crashes on youtube" value="" type="text">
+              </div>
+
+              <div class="container cf">
+                <label for="id_is_locked_0">Locked</label>
+                <div class="is_locked radios">
+                  <ul>
+<li><label for="id_is_locked_0"><input type="radio" id="id_is_locked_0" value="0" name="is_locked"> Don't filter</label></li>
+<li><label for="id_is_locked_1"><input type="radio" id="id_is_locked_1" value="1" name="is_locked"> Yes</label></li>
+<li><label for="id_is_locked_2"><input type="radio" id="id_is_locked_2" value="-1" name="is_locked"> No</label></li>
+</ul>
+                </div>
+              </div>
+
+              <div class="container cf">
+                <label for="id_is_solved_0">Solved</label>
+                <div class="is_solved radios">
+                  <ul>
+<li><label for="id_is_solved_0"><input type="radio" id="id_is_solved_0" value="0" name="is_solved"> Don't filter</label></li>
+<li><label for="id_is_solved_1"><input type="radio" id="id_is_solved_1" value="1" name="is_solved"> Yes</label></li>
+<li><label for="id_is_solved_2"><input type="radio" id="id_is_solved_2" value="-1" name="is_solved"> No</label></li>
+</ul>
+                </div>
+              </div>
+
+              <div class="container cf">
+                <label for="id_has_answers_0">Has answers</label>
+                <div class="has_answer radios">
+                  <ul>
+<li><label for="id_has_answers_0"><input type="radio" id="id_has_answers_0" value="0" name="has_answers"> Don't filter</label></li>
+<li><label for="id_has_answers_1"><input type="radio" id="id_has_answers_1" value="1" name="has_answers"> Yes</label></li>
+<li><label for="id_has_answers_2"><input type="radio" id="id_has_answers_2" value="-1" name="has_answers"> No</label></li>
+</ul>
+                </div>
+              </div>
+
+              <div class="container cf">
+                <label for="id_has_helpful_0">Has helpful answers</label>
+                <div class="has_helpful radios">
+                  <ul>
+<li><label for="id_has_helpful_0"><input type="radio" id="id_has_helpful_0" value="0" name="has_helpful"> Don't filter</label></li>
+<li><label for="id_has_helpful_1"><input type="radio" id="id_has_helpful_1" value="1" name="has_helpful"> Yes</label></li>
+<li><label for="id_has_helpful_2"><input type="radio" id="id_has_helpful_2" value="-1" name="has_helpful"> No</label></li>
+</ul>
+                </div>
+              </div>
+
+              <div class="container cf showhide-input">
+                <label for="id_num_voted">Votes</label>
+                <select name="num_voted" id="id_num_voted">
+<option value="0">Don't filter</option>
+<option value="1">Less than</option>
+<option value="2">More than</option>
+</select>
+                <input name="num_votes" class="numeric" type="text" value="" title="Number of votes. Must be an integer." style="display: none; ">
+              </div>
+
+              <div class="container cf">
+                <label for="id_asked_by">Asked by</label>
+                <input id="id_asked_by" type="text" placeholder="username" class="auto-fill" name="asked_by">
+              </div>
+
+              <div class="container cf">
+                <label for="id_answered_by">Answered by</label>
+                <input id="id_answered_by" type="text" placeholder="username" class="auto-fill" name="answered_by">
+              </div>
+
+              <div class="container cf">
+                <label for="id_q_tags">Tags</label>
+                <input id="id_q_tags" type="text" placeholder="tag1, tag2" class="auto-fill" name="q_tags">
+                <div class="search-tips-small">
+                  Note: Searching for "tag1, tag2" returns questions tagged with both tag1 and tag2
+                </div>
+              </div>
+
+              <div class="container cf showhide-input">
+                <label for="id_created">Created</label>
+                <select name="created" id="id_created">
+<option value="0">Don't filter</option>
+<option value="1">Before</option>
+<option value="2">After</option>
+</select>
+                <input name="created_date" type="text" value="" class="datepicker hasDatepicker" title="Created date. Format: mm/dd/yy" id="dp1349238391816" readonly="readonly" style="background-color: rgb(221, 221, 221); display: none; background-position: initial initial; background-repeat: initial initial; ">
+              </div>
+
+              <div class="container cf showhide-input">
+                <label for="id_updated">Last updated</label>
+                <select name="updated" id="id_updated">
+<option value="0">Don't filter</option>
+<option value="1">Before</option>
+<option value="2">After</option>
+</select>
+                <input name="updated_date" type="text" value="" class="datepicker hasDatepicker" title="Updated date. Format: mm/dd/yy" id="dp1349238391817" readonly="readonly" style="background-color: rgb(221, 221, 221); display: none; background-position: initial initial; background-repeat: initial initial; ">
+              </div>
+
+              <div class="container cf">
+                <label for="id_sortby">Sort results by</label>
+                <select name="sortby" id="id_sortby">
+<option value="0">Relevance</option>
+<option value="1">Last post date</option>
+<option value="2">Original post date</option>
+<option value="3">Number of replies</option>
+</select>
+              </div>
+
+                              <input type="hidden" name="a" value="1" id="id_a">
+                            <input type="hidden" value="2" name="w">
+
+              <div class="submit-search">
+                <button class="btn btn-important big" data-type="submit">Search Mozilla Support</button>
+                <a class="btn" href="/en-US/search">Use basic search</a>
+              </div>
+            </form>            <form method="get" id="discussion" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+              <div class="container cf">
+                <label for="discussion_q">Thread contains</label>
+                <input name="q" class="auto-fill" id="discussion_q" placeholder="crashes on youtube" value="" type="text">
+              </div>
+
+              <div class="container cf">
+                <label for="id_thread_type_0">Thread type</label>
+                <div class="thread-type checkboxes">
+                  <ul>
+<li><label for="id_thread_type_0"><input type="checkbox" name="thread_type" value="1" id="id_thread_type_0"> Sticky</label></li>
+<li><label for="id_thread_type_1"><input type="checkbox" name="thread_type" value="2" id="id_thread_type_1"> Locked</label></li>
+</ul>
+                </div>
+              </div>
+
+              <div class="container cf">
+                <label for="id_author">Author</label>
+                <input id="id_author" type="text" placeholder="username" class="auto-fill" name="author">
+              </div>
+
+              <div class="container cf showhide-input">
+                <label for="id_created">Created</label>
+                <select name="created" id="id_created">
+<option value="0">Don't filter</option>
+<option value="1">Before</option>
+<option value="2">After</option>
+</select>
+                <input name="created_date" type="text" value="" class="datepicker hasDatepicker" title="Created date. Format: mm/dd/yy" id="dp1349238391818" readonly="readonly" style="background-color: rgb(221, 221, 221); display: none; background-position: initial initial; background-repeat: initial initial; ">
+              </div>
+
+              <div class="container cf showhide-input">
+                <label for="id_updated">Last updated</label>
+                <select name="updated" id="id_updated">
+<option value="0">Don't filter</option>
+<option value="1">Before</option>
+<option value="2">After</option>
+</select>
+                <input name="updated_date" type="text" value="" class="datepicker hasDatepicker" title="Updated date. Format: mm/dd/yy" id="dp1349238391819" readonly="readonly" style="background-color: rgb(221, 221, 221); display: none; background-position: initial initial; background-repeat: initial initial; ">
+              </div>
+
+              <div class="container cf">
+                <label for="id_sortby">Sort results by</label>
+                <select name="sortby" id="id_sortby">
+<option value="0">Relevance</option>
+<option value="1">Last post date</option>
+<option value="2">Original post date</option>
+<option value="3">Number of replies</option>
+</select>
+              </div>
+
+              <div class="container cf">
+                <label for="id_forum">Search in forum</label>
+                <select multiple="multiple" name="forum" id="id_forum">
+<option value="1">SUMO community discussions</option>
+<option value="2">Off Topic</option>
+<option value="3">Knowledge base articles</option>
+<option value="5">test</option>
+<option value="7">Forum Moderators</option>
+<option value="8">SUMO Team Discussion</option>
+<option value="9">Lost Threads</option>
+<option value="10">aurora-mobile</option>
+<option value="11">aurora-desktop</option>
+<option value="12">hello world</option>
+<option value="13">firefoxaurora</option>
+</select>
+              </div>
+
+                              <input type="hidden" name="a" value="1" id="id_a">
+                            <input type="hidden" value="4" name="w">
+
+              <div class="submit-search">
+                <button class="btn btn-important big" data-type="submit">Search Mozilla Support</button>
+                <a class="btn" href="/en-US/search">Use basic search</a>
+              </div>
+            </form>          </div>        </div>          </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container_12 cf">
+    <div class="grid_2"><img src="/media/img/mozilla-logo.png" alt="Mozilla"></div>
+    <div class="grid_4 suffix_1">
+      <div class="fineprint">
+        Portions of this content are ©1998–2012 <br>by individual mozilla.org contributors. Content <br>available under a Creative Commons license.      </div>
+    </div>
+    <div class="grid_2">
+      <ul>
+        <li><a href="http://www.mozilla.org/about/contact.html">Contact Us</a></li>
+        <li><a href="http://www.mozilla.org/privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="http://www.mozilla.org/about/legal.html">Legal Notices</a></li>
+        <li><a href="http://www.mozilla.org/legal/fraud-report/index.html">Report Trademark Abuse</a></li>
+      </ul>
+    </div>
+    <div class="grid_2 suffix_1">
+      <ul>
+        <li><a href="http://www.twitter.com/mozilla">Twitter</a></li>
+        <li><a href="http://www.facebook.com/mozilla">Facebook</a></li>
+        <li><a href="http://affiliates.mozilla.org/">Firefox Affiliates</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="/en-US/jsi18n/build:2420975"></script>
+<script src="/wafflejs"></script>
+<script src="/media/js/common-min.js?build=2420975"></script>
+<script src="/media/js/new-theme-min.js?build=2420975"></script>
+<!--[if (gte IE 6)&(lte IE 8)]>
+  <script src="/media/js/ie6-8-min.js?build=2420975"></script>
+<![endif]-->
+  <script src="/media/js/search-min.js?build=2420975"></script>
+  <script src="/media/js/libs/jqueryui-min.js?build=2420975"></script>
+
+    <script src="//www.mozilla.org/tabzilla/media/js/tabzilla.js"></script>
+
+<script defer="" src="/media/js/webtrends.js"></script>
+<noscript>
+  &lt;div&gt;&lt;img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="//statse.webtrendslive.com/dcsz45fp6vz5bdvu89oegdwp8_7u8z/njs.gif?dcsuri=/nojavascript&amp;amp;WT.js=No&amp;amp;WT.tv=9.4.0&amp;amp;dcssip=www.support.mozilla.org"/&gt;&lt;/div&gt;
+</noscript>
+
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all ui-helper-hidden-accessible"></div></body></html>

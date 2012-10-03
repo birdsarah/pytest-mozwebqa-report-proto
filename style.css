@@ -1,0 +1,125 @@
+/*BASIC SETUP*/
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	padding: 0 30px 0 30px;
+}
+h2 {
+	font-size: 16px;
+}
+
+/*GENERAL TABLE SETUP*/
+table {
+	border: 1px solid #e6e6e6;
+	font-size: 12px;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 5px;
+}
+th {
+	font-weight: bold;
+}
+
+/*CONIGURATION TABLE*/
+#configuration {
+	display: inline;
+	float: left;
+}
+#configuration tr:nth-child(odd) {
+	background-color: #f6f6f6;
+}
+#configuration td:nth-child(1) {
+	font-weight: bold;
+}
+
+/*SUMMARY TABLE*/
+#summary {
+	display: inline;
+	float: left;
+	padding: 0 0 0 50px;
+}
+.sortable {
+	cursor: pointer;
+	color: blue;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.sortable:hover {
+	background-color: #f6f6f6;
+}
+.sortable:active {
+	background-color: #808080;
+}
+
+/*RESULTS TABLE*/
+#results {
+	padding-top: 10px;
+	clear: both
+}
+#results-table tr, #results-table th, #results-table td {
+	border: 1px solid #808080;
+}
+
+/*TEXT COLOR CODING */
+.passed {
+	color: green;
+}
+.skipped, .xfailed {
+	color: orange;
+}
+.failed, .xpassed {
+	color: red;
+}
+.error {
+	color: gray;
+}
+.pytest-error {
+	color: red;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+/*RESULTS CONTENT*/
+#results .results-hide {
+	display: none;
+}
+
+/*if the result is passed don't show anything for screenshot or log*/
+.passed.log, .passed.screenshot, .xpassed.log, .xpassed.screenshot {
+	display: none;
+}
+
+.log {
+	background-color: #e6e6e6;
+	border: 1px solid #e6e6e6;
+	color: black;
+	display: block;
+	font-family: "Courier New", Courier, monospace;
+	height: 230px;
+	overflow-y: scroll;
+	padding: 5px;
+	white-space: pre-wrap;
+}
+.screenshot, .video {
+	float: right;
+	height: 240px;
+	margin-left: 5px;
+	overflow: hidden;
+	width: 320px;
+}
+
+.screenshot img {
+	width: 320px;
+}
+
+/*LINKS*/
+ul.debug-links {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100px;
+}
+ul.debug-links li {
+	margin-top: 5px;
+}

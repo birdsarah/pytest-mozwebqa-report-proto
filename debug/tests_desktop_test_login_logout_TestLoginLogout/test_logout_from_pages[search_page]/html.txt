@@ -1,0 +1,175 @@
+<!DOCTYPE html><html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en-US" dir="ltr"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Search | Mozilla Support</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="/media/img/favicon.ico">
+  <link rel="search" type="application/opensearchdescription+xml" title="Firefox Help" href="/en-US/search/xml">
+  
+  <link rel="stylesheet" media="screen,projection,tv" href="/media/css/new-theme-min.css?build=2420975">
+  <link rel="stylesheet" media="print" href="/media/css/print-min.css?build=2420975">
+      <link rel="stylesheet" media="screen,projection,tv" href="/media/css/search-min.css?build=2420975">
+  
+          <link href="//www.mozilla.org/tabzilla/media/css/tabzilla.css" rel="stylesheet">
+  
+  <!--[if lte IE 7]>
+<link rel="stylesheet" media="screen,projection,tv" href="/media/css/ie-min.css?build=2420975" />
+<![endif]-->
+  <!--[if IE 8]>
+<link rel="stylesheet" media="screen,projection,tv" href="/media/css/ie8-min.css?build=2420975" />
+<![endif]-->
+
+  
+  
+  
+  <!--[if lt IE 9]>
+<script src="/media/js/libs/html5-shiv.js"></script>
+<![endif]-->
+</head>
+<body class="html-ltr  en-US" data-readonly="false" data-for-os="{&quot;maemo&quot;: 4, &quot;win&quot;: 1, &quot;mac&quot;: 2, &quot;android&quot;: 5, &quot;linux&quot;: 3}" data-for-version="{&quot;m11&quot;: 18, &quot;m10&quot;: 16, &quot;m12&quot;: 20, &quot;m15&quot;: 24, &quot;m14&quot;: 22, &quot;m17&quot;: 28, &quot;m16&quot;: 26, &quot;m9&quot;: 14, &quot;m5&quot;: 7, &quot;m4&quot;: 4, &quot;m7&quot;: 10, &quot;m6&quot;: 8, &quot;fx35&quot;: 2, &quot;fx11&quot;: 17, &quot;fx10&quot;: 15, &quot;fx13&quot;: 21, &quot;fx12&quot;: 19, &quot;fx15&quot;: 25, &quot;fx14&quot;: 23, &quot;fx17&quot;: 29, &quot;fx16&quot;: 27, &quot;fx9&quot;: 13, &quot;fx8&quot;: 11, &quot;fx5&quot;: 5, &quot;fx4&quot;: 1, &quot;fx7&quot;: 9, &quot;fx6&quot;: 6, &quot;fx3&quot;: 3, &quot;m8&quot;: 12}" data-usernames-api="/en-US/users/api/usernames" data-media-url="/media/"><div id="tabzilla-panel" class="tabzilla-closed" tabindex="-1"><div id="tabzilla-contents">  <div id="tabzilla-promo">    <div class="snippet" id="tabzilla-promo-mobile">    <a href="http://www.mozilla.org/firefox/fx/?WT.mc_id=tzfxmobile&amp;WT.mc_ev=click#mobile">     <h4>Fast. Smart. Safe.</h4>     <p>Get Firefox for Android&nbsp;»</p></a>    </div>  </div>  <div id="tabzilla-nav">    <ul>      <li><h2>Mozilla</h2>        <ul>          <li><a href="http://www.mozilla.org/mission/">Mission</a></li>          <li><a href="http://www.mozilla.org/about/">About</a></li>          <li><a href="http://www.mozilla.org/projects/">Projects</a></li>          <li><a href="http://support.mozilla.org/">Support</a></li>          <li><a href="https://developer.mozilla.org">Developer Network</a></li>        </ul>      </li>      <li><h2>Products</h2>        <ul>          <li><a href="http://www.mozilla.org/firefox">Firefox</a></li>          <li><a href="http://www.mozilla.org/thunderbird">Thunderbird</a></li>          <li><a href="http://www.mozilla.org/b2g">Boot to Gecko</a></li>        </ul>      </li>      <li><h2>Innovations</h2>        <ul>          <li><a href="https://webfwd.org/">WebFWD</a></li>          <li><a href="http://mozillalabs.com/">Labs</a></li>          <li><a href="https://www.mozilla.org/webmaker/">Webmaker</a></li>        </ul>      </li>      <li><h2>Get Involved</h2>        <ul>          <li><a href="http://www.mozilla.org/contribute/">Volunteer</a></li>          <li><a href="http://www.mozilla.org/en-US/about/careers.html">Careers</a></li>          <li><a href="http://www.mozilla.org/en-US/about/mozilla-spaces/">Find us</a></li>          <li><a href="https://donate.mozilla.org/">Join us</a></li>        </ul>      </li>      <li id="tabzilla-search">        <a href="http://www.mozilla.org/community/directory.html">Website Directory</a>        <form title="Search Mozilla sites" role="search" action="http://www.google.com/cse">          <input type="hidden" value="002443141534113389537:ysdmevkkknw" name="cx">          <input type="hidden" value="FORID:0" name="cof">          <label for="q">Search</label>          <input type="search" placeholder="Search" id="q" name="q">        </form>      </li>    </ul>  </div></div></div>
+
+  <div id="stage-banner">
+    <div class="close-button">X</div>
+    This is a staging site. The production site is <a href="http://support.mozilla.org">here</a>.
+  </div>
+
+<header>
+  <div class="container_12 cf">
+    <div class="grid_12">
+                      <a href="http://www.mozilla.org/" id="tabzilla" class="tabzilla-closed" role="button" aria-expanded="false" aria-controls="tabzilla-panel" title="Mozilla links">mozilla</a>
+            <div class="cf">
+        <nav id="aux-nav" role="navigation">
+          <ul>
+                                            <li><a href="/en-US/questions/new" class="ask">Ask a question</a></li>
+              <li class="dropdown"><a href="/en-US/user/303584" class="user">birdsarah_test1</a>
+          <ul>
+            <li><a href="/en-US/user/303584">View Profile</a></li>
+            <li><a href="/en-US/users/edit">Edit Profile</a></li>
+            <li><a href="/en-US/dashboard">Dashboard</a></li>
+            <li><a href="/en-US/users/settings">Settings</a></li>
+            <li><a href="/en-US/users/logout" class="sign-out">Sign Out</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="/en-US/messages">
+            Inbox
+                      </a>
+        </li>
+            
+                                    <li><a href="/en-US/locales" class="locale-picker">English</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="cf">
+                <a href="/en-US/home"><img class="logo" alt="mozilla support" src="/media/img/mozilla-support.png"></a>
+      </div>
+      <nav id="main-nav">
+        <ul class="cf">
+          <li><a href="/en-US/products">Products &amp; Services</a></li>
+          <li><a href="/en-US/kb">Help Articles</a></li>
+          <li><a href="/en-US/topics/hot">Hot Topics</a></li>
+          <li><a href="/en-US/kb/mozilla-news">Mozilla News</a></li>
+          <li><a href="/en-US/kb/superheroes-wanted">Help Other Users</a></li>
+          <li><a href="/en-US/kb/suggestion-box">Suggestion Box</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+    <div class="breadcrumbs">
+    <div class="container_12 cf">
+      <ol id="breadcrumbs" class="grid_12 cf">
+                              <li><a href="/en-US/home">Home</a></li>
+                                        <li>Search</li>
+                        </ol>
+    </div>
+  </div>
+
+
+<div class="container_12 cf">
+  <div class="grid_12">
+    
+      </div>
+
+      <aside class="grid_3">
+                      </aside>
+  
+    <div class="grid_3">
+              <ul class="sidebar-nav sidebar-folding">
+          <li id="for-contributors-sidebar">
+        <a href="#">For Contributors</a>
+        <ul class="sidebar-nav">
+          <li><a href="/en-US/kb/superheroes-wanted">Quickstart Guide</a></li>
+  <li><a href="/en-US/kb/contributor-news-resources">News &amp; Resources</a></li>
+  <li><a href="/en-US/forums">Contributor Forums</a></li>
+  <li><a href="/en-US/kb/all/discussions">Article Discussions</a></li>
+  <li><a href="/en-US/localization">Knowledge Base Dashboard</a></li>
+  <li><a href="/en-US/army-of-awesome">Help on Twitter</a></li>
+  <li><a href="/en-US/questions">Support Forum Home</a></li>
+    <li><a href="/en-US/gallery/">Media Gallery</a></li>
+  <li><a href="/en-US/search?a=2">Advanced Search</a></li>
+    <li><a href="/en-US/kpi/dashboard">KPI Dashboard</a></li>
+        </ul>
+      </li>
+          </ul>
+      
+  </div>
+  <div class="grid_9">
+    <div class="content-box cf" id="advanced-search">
+                      <div id="basic-search" class="search-empty">
+  Enter your terms in the form below and click <strong>Search</strong>
+    <form role="search" method="get" action="/en-US/search">
+      <input type="text" class="search-query search-empty-query" value="" name="q">
+      <input type="submit" class="search-empty-submit btn-large" value="Search">
+    </form>
+  </div>
+        <a href="/en-US/search?a=2">Use advanced search</a>
+          </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container_12 cf">
+    <div class="grid_2"><img src="/media/img/mozilla-logo.png" alt="Mozilla"></div>
+    <div class="grid_4 suffix_1">
+      <div class="fineprint">
+        Portions of this content are ©1998–2012 <br>by individual mozilla.org contributors. Content <br>available under a Creative Commons license.      </div>
+    </div>
+    <div class="grid_2">
+      <ul>
+        <li><a href="http://www.mozilla.org/about/contact.html">Contact Us</a></li>
+        <li><a href="http://www.mozilla.org/privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="http://www.mozilla.org/about/legal.html">Legal Notices</a></li>
+        <li><a href="http://www.mozilla.org/legal/fraud-report/index.html">Report Trademark Abuse</a></li>
+      </ul>
+    </div>
+    <div class="grid_2 suffix_1">
+      <ul>
+        <li><a href="http://www.twitter.com/mozilla">Twitter</a></li>
+        <li><a href="http://www.facebook.com/mozilla">Facebook</a></li>
+        <li><a href="http://affiliates.mozilla.org/">Firefox Affiliates</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="/en-US/jsi18n/build:2420975"></script>
+<script src="/wafflejs"></script>
+<script src="/media/js/common-min.js?build=2420975"></script>
+<script src="/media/js/new-theme-min.js?build=2420975"></script>
+<!--[if (gte IE 6)&(lte IE 8)]>
+  <script src="/media/js/ie6-8-min.js?build=2420975"></script>
+<![endif]-->
+  <script src="/media/js/search-min.js?build=2420975"></script>
+  <script src="/media/js/libs/jqueryui-min.js?build=2420975"></script>
+
+    <script src="//www.mozilla.org/tabzilla/media/js/tabzilla.js"></script>
+
+<script defer="" src="/media/js/webtrends.js"></script>
+<noscript>
+  &lt;div&gt;&lt;img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="//statse.webtrendslive.com/dcsz45fp6vz5bdvu89oegdwp8_7u8z/njs.gif?dcsuri=/nojavascript&amp;amp;WT.js=No&amp;amp;WT.tv=9.4.0&amp;amp;dcssip=www.support.mozilla.org"/&gt;&lt;/div&gt;
+</noscript>
+
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all ui-helper-hidden-accessible"></div></body></html>

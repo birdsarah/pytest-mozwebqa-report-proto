@@ -1,0 +1,407 @@
+<html>
+  <head>
+    <title>Test Report</title>
+    <meta charset="utf-8"/>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="jquery.js"></script>
+    <script src="tablesort.js"></script>
+    <script src="main.js"></script></head>
+  <body>
+    <div id="configuration">
+      <h2>Configuration</h2>
+      <p>Report generated on 02-Oct-2012 at 21:27:30</p>
+      <table>
+        <tr>
+          <td>Base URL</td>
+          <td>https://support.allizom.org</td></tr>
+        <tr>
+          <td>Credentials</td>
+          <td>../sumo-test-credentials.yaml</td></tr>
+        <tr>
+          <td>Driver</td>
+          <td>remote</td></tr>
+        <tr>
+          <td>Pytest-mozwebqa</td>
+          <td>v1.1</td></tr>
+        <tr>
+          <td>Selenium API</td>
+          <td>webdriver</td></tr>
+        <tr>
+          <td>Selenium Server</td>
+          <td>http://192.168.0.31:4444</td></tr>
+        <tr>
+          <td>Timeout</td>
+          <td>60</td></tr></table></div>
+    <div id="summary">
+      <h2>Summary</h2>
+      <p>9 tests ran in 181 seconds.</p>
+      <table>
+        <tr>
+          <td class="passed">Passed</td>
+          <td class="passed">3</td>
+          <td><input checked="checked" type="checkbox" value="passed"/></td>
+          <td class="error">Errors</td>
+          <td class="error">0</td>
+          <td><input checked="checked" type="checkbox" value="error"/></td></tr>
+        <tr>
+          <td class="skipped">Skipped</td>
+          <td class="skipped">23</td>
+          <td><input checked="checked" type="checkbox" value="skipped"/></td>
+          <td class="skipped" title="Expected failures">Xfails</td>
+          <td class="skipped">0</td>
+          <td><input checked="checked" type="checkbox" value="xfailed"/></td></tr>
+        <tr>
+          <td class="failed">Failed</td>
+          <td class="failed">5</td>
+          <td><input checked="checked" type="checkbox" value="failed"/></td>
+          <td class="failed" title="Unexpected passes">Xpasses</td>
+          <td class="failed">1</td>
+          <td><input checked="checked" type="checkbox" value="xpassed"/></td></tr></table></div>
+    <div id="results">
+      <h2>Results</h2>
+      <p>Sort columns by clicking on active column headers. Use browser refresh to reset the page.</p>
+      <table class="sort" id="results-table">
+        <thead>
+          <tr>
+            <th class="type-string sortable">Result</th>
+            <th class="type-string sortable">Class / Test Name</th>
+            <th class="type-float sortable">Duration</th>
+            <th>Links</th>
+            <th>Logs</th>
+            <th>Screenshot</th></tr></thead>
+        <tbody>
+          <tr class="passed">
+            <td>Passed</td>
+            <td>tests.desktop.test_kb_article.TestKnowledgeBaseArticle / test_view_helpfulness_chart</td>
+            <td>24.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log passed"></div></td>
+            <td>
+              <div class="screenshot passed"></div></td></tr>
+          <tr class="passed">
+            <td>Passed</td>
+            <td>tests.desktop.test_login_logout.TestLoginLogout / test_login</td>
+            <td>14.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log passed"></div></td>
+            <td>
+              <div class="screenshot passed"></div></td></tr>
+          <tr class="failed">
+            <td>Failed</td>
+            <td>tests.desktop.test_login_logout.TestLoginLogout / test_logout_from_pages[home_page]</td>
+            <td>15.0</td>
+            <td>
+              <ul class="debug-links">
+                <li><a href="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[home_page]/html.txt">HTML</a></li> 
+                <li><a href="https://support.allizom.org/en-US/home">Failing URL</a></li> 
+                <li><a href="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[home_page]/screenshot.png">Screenshot</a></li> </ul></td>
+            <td>
+              <div class="log failed">self = &lt;tests.desktop.test_login_logout.TestLoginLogout instance at 0x26f80e0&gt;<br/>mozwebqa = &lt;pytest_mozwebqa.pytest_mozwebqa.TestSetup instance at 0x26f49e0&gt;, page_method = 'home_page'<br/><br/>    @pytest.mark.native<br/>    @pytest.mark.nondestructive<br/>    @pytest.mark.parametrize('page_method', [<br/>            'home_page',<br/>            'new_question_page',<br/>            'questions_page',<br/>            'search_page',<br/>            'refine_search_page',<br/>        ])<br/>    def test_logout_from_pages(self, mozwebqa, page_method):<br/>        page_under_test = getattr(PageProvider(mozwebqa), page_method)(do_login=True, user='default')<br/>        Assert.true(page_under_test.header.is_user_logged_in, 'User not shown to be logged in')<br/>    <br/>        # sign out<br/>        home_page = page_under_test.sign_out()<br/>        home_page.is_the_current_page<br/>&gt;       Assert.false(home_page.header.is_user_logged_in)<br/><br/>tests/desktop/test_login_logout.py:39: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;class unittestzero.Assert at 0x25193f8&gt;, first = True, msg = None<br/><br/>    @classmethod<br/>    def false(self, first, msg=None):<br/>&gt;       assert first is False, msg<br/><span class="pytest-error">E       AssertionError: None</span><br/><br/>/usr/local/lib/python2.7/dist-packages/unittestzero.py:57: AssertionError<br/></div></td>
+            <td>
+              <div class="screenshot failed"><a href="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[home_page]/screenshot.png"><img src="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[home_page]/screenshot.png"/></a></div></td></tr>
+          <tr class="failed">
+            <td>Failed</td>
+            <td>tests.desktop.test_login_logout.TestLoginLogout / test_logout_from_pages[new_question_page]</td>
+            <td>15.0</td>
+            <td>
+              <ul class="debug-links">
+                <li><a href="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[new_question_page]/html.txt">HTML</a></li> 
+                <li><a href="https://support.allizom.org/en-US/questions/new">Failing URL</a></li> 
+                <li><a href="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[new_question_page]/screenshot.png">Screenshot</a></li> </ul></td>
+            <td>
+              <div class="log failed">self = &lt;tests.desktop.test_login_logout.TestLoginLogout instance at 0x2727998&gt;<br/>mozwebqa = &lt;pytest_mozwebqa.pytest_mozwebqa.TestSetup instance at 0x2723e60&gt;, page_method = 'new_question_page'<br/><br/>    @pytest.mark.native<br/>    @pytest.mark.nondestructive<br/>    @pytest.mark.parametrize('page_method', [<br/>            'home_page',<br/>            'new_question_page',<br/>            'questions_page',<br/>            'search_page',<br/>            'refine_search_page',<br/>        ])<br/>    def test_logout_from_pages(self, mozwebqa, page_method):<br/>        page_under_test = getattr(PageProvider(mozwebqa), page_method)(do_login=True, user='default')<br/>        Assert.true(page_under_test.header.is_user_logged_in, 'User not shown to be logged in')<br/>    <br/>        # sign out<br/>        home_page = page_under_test.sign_out()<br/>&gt;       home_page.is_the_current_page<br/><br/>tests/desktop/test_login_logout.py:38: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;pages.desktop.support_home_page.SupportHomePage object at 0x2722bd0&gt;<br/><br/>    @property<br/>    def is_the_current_page(self):<br/>        if self._page_title:<br/>            page_title = self.page_title<br/>            Assert.equal(page_title, self._page_title,<br/>                         "Expected page title: %s. Actual page title: %s" % \<br/>&gt;                        (self._page_title, page_title))<br/><br/>pages/page.py:39: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;class unittestzero.Assert at 0x25193f8&gt;, first = u'Ask a Question | Mozilla Support', second = 'Mozilla Support'<br/>msg = u'Expected page title: Mozilla Support. Actual page title: Ask a Question | Mozilla Support'<br/><br/>    @classmethod<br/>    def equal(self, first, second, msg=None):<br/>&gt;       assert first == second, msg<br/><span class="pytest-error">E       AssertionError: Expected page title: Mozilla Support. Actual page title: Ask a Question | Mozilla Support</span><br/><br/>/usr/local/lib/python2.7/dist-packages/unittestzero.py:45: AssertionError<br/></div></td>
+            <td>
+              <div class="screenshot failed"><a href="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[new_question_page]/screenshot.png"><img src="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[new_question_page]/screenshot.png"/></a></div></td></tr>
+          <tr class="failed">
+            <td>Failed</td>
+            <td>tests.desktop.test_login_logout.TestLoginLogout / test_logout_from_pages[questions_page]</td>
+            <td>15.0</td>
+            <td>
+              <ul class="debug-links">
+                <li><a href="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[questions_page]/html.txt">HTML</a></li> 
+                <li><a href="https://support.allizom.org/en-US/questions">Failing URL</a></li> 
+                <li><a href="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[questions_page]/screenshot.png">Screenshot</a></li> </ul></td>
+            <td>
+              <div class="log failed">self = &lt;tests.desktop.test_login_logout.TestLoginLogout instance at 0x28a60e0&gt;<br/>mozwebqa = &lt;pytest_mozwebqa.pytest_mozwebqa.TestSetup instance at 0x26fd5a8&gt;, page_method = 'questions_page'<br/><br/>    @pytest.mark.native<br/>    @pytest.mark.nondestructive<br/>    @pytest.mark.parametrize('page_method', [<br/>            'home_page',<br/>            'new_question_page',<br/>            'questions_page',<br/>            'search_page',<br/>            'refine_search_page',<br/>        ])<br/>    def test_logout_from_pages(self, mozwebqa, page_method):<br/>        page_under_test = getattr(PageProvider(mozwebqa), page_method)(do_login=True, user='default')<br/>        Assert.true(page_under_test.header.is_user_logged_in, 'User not shown to be logged in')<br/>    <br/>        # sign out<br/>        home_page = page_under_test.sign_out()<br/>&gt;       home_page.is_the_current_page<br/><br/>tests/desktop/test_login_logout.py:38: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;pages.desktop.support_home_page.SupportHomePage object at 0x28bbd10&gt;<br/><br/>    @property<br/>    def is_the_current_page(self):<br/>        if self._page_title:<br/>            page_title = self.page_title<br/>            Assert.equal(page_title, self._page_title,<br/>                         "Expected page title: %s. Actual page title: %s" % \<br/>&gt;                        (self._page_title, page_title))<br/><br/>pages/page.py:39: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;class unittestzero.Assert at 0x25193f8&gt;, first = u'Firefox Support Forum | Mozilla Support', second = 'Mozilla Support'<br/>msg = u'Expected page title: Mozilla Support. Actual page title: Firefox Support Forum | Mozilla Support'<br/><br/>    @classmethod<br/>    def equal(self, first, second, msg=None):<br/>&gt;       assert first == second, msg<br/><span class="pytest-error">E       AssertionError: Expected page title: Mozilla Support. Actual page title: Firefox Support Forum | Mozilla Support</span><br/><br/>/usr/local/lib/python2.7/dist-packages/unittestzero.py:45: AssertionError<br/></div></td>
+            <td>
+              <div class="screenshot failed"><a href="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[questions_page]/screenshot.png"><img src="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[questions_page]/screenshot.png"/></a></div></td></tr>
+          <tr class="failed">
+            <td>Failed</td>
+            <td>tests.desktop.test_login_logout.TestLoginLogout / test_logout_from_pages[search_page]</td>
+            <td>14.0</td>
+            <td>
+              <ul class="debug-links">
+                <li><a href="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[search_page]/html.txt">HTML</a></li> 
+                <li><a href="https://support.allizom.org/en-US/search">Failing URL</a></li> 
+                <li><a href="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[search_page]/screenshot.png">Screenshot</a></li> </ul></td>
+            <td>
+              <div class="log failed">self = &lt;tests.desktop.test_login_logout.TestLoginLogout instance at 0x28b84d0&gt;<br/>mozwebqa = &lt;pytest_mozwebqa.pytest_mozwebqa.TestSetup instance at 0x28ac998&gt;, page_method = 'search_page'<br/><br/>    @pytest.mark.native<br/>    @pytest.mark.nondestructive<br/>    @pytest.mark.parametrize('page_method', [<br/>            'home_page',<br/>            'new_question_page',<br/>            'questions_page',<br/>            'search_page',<br/>            'refine_search_page',<br/>        ])<br/>    def test_logout_from_pages(self, mozwebqa, page_method):<br/>        page_under_test = getattr(PageProvider(mozwebqa), page_method)(do_login=True, user='default')<br/>        Assert.true(page_under_test.header.is_user_logged_in, 'User not shown to be logged in')<br/>    <br/>        # sign out<br/>        home_page = page_under_test.sign_out()<br/>&gt;       home_page.is_the_current_page<br/><br/>tests/desktop/test_login_logout.py:38: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;pages.desktop.support_home_page.SupportHomePage object at 0x28aaf90&gt;<br/><br/>    @property<br/>    def is_the_current_page(self):<br/>        if self._page_title:<br/>            page_title = self.page_title<br/>            Assert.equal(page_title, self._page_title,<br/>                         "Expected page title: %s. Actual page title: %s" % \<br/>&gt;                        (self._page_title, page_title))<br/><br/>pages/page.py:39: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;class unittestzero.Assert at 0x25193f8&gt;, first = u'Search | Mozilla Support', second = 'Mozilla Support'<br/>msg = u'Expected page title: Mozilla Support. Actual page title: Search | Mozilla Support'<br/><br/>    @classmethod<br/>    def equal(self, first, second, msg=None):<br/>&gt;       assert first == second, msg<br/><span class="pytest-error">E       AssertionError: Expected page title: Mozilla Support. Actual page title: Search | Mozilla Support</span><br/><br/>/usr/local/lib/python2.7/dist-packages/unittestzero.py:45: AssertionError<br/></div></td>
+            <td>
+              <div class="screenshot failed"><a href="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[search_page]/screenshot.png"><img src="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[search_page]/screenshot.png"/></a></div></td></tr>
+          <tr class="failed">
+            <td>Failed</td>
+            <td>tests.desktop.test_login_logout.TestLoginLogout / test_logout_from_pages[refine_search_page]</td>
+            <td>14.0</td>
+            <td>
+              <ul class="debug-links">
+                <li><a href="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[refine_search_page]/html.txt">HTML</a></li> 
+                <li><a href="https://support.allizom.org/en-US/search?a=2">Failing URL</a></li> 
+                <li><a href="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[refine_search_page]/screenshot.png">Screenshot</a></li> </ul></td>
+            <td>
+              <div class="log failed">self = &lt;tests.desktop.test_login_logout.TestLoginLogout instance at 0x27209e0&gt;<br/>mozwebqa = &lt;pytest_mozwebqa.pytest_mozwebqa.TestSetup instance at 0x28ce200&gt;, page_method = 'refine_search_page'<br/><br/>    @pytest.mark.native<br/>    @pytest.mark.nondestructive<br/>    @pytest.mark.parametrize('page_method', [<br/>            'home_page',<br/>            'new_question_page',<br/>            'questions_page',<br/>            'search_page',<br/>            'refine_search_page',<br/>        ])<br/>    def test_logout_from_pages(self, mozwebqa, page_method):<br/>        page_under_test = getattr(PageProvider(mozwebqa), page_method)(do_login=True, user='default')<br/>        Assert.true(page_under_test.header.is_user_logged_in, 'User not shown to be logged in')<br/>    <br/>        # sign out<br/>        home_page = page_under_test.sign_out()<br/>&gt;       home_page.is_the_current_page<br/><br/>tests/desktop/test_login_logout.py:38: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;pages.desktop.support_home_page.SupportHomePage object at 0x28b3f90&gt;<br/><br/>    @property<br/>    def is_the_current_page(self):<br/>        if self._page_title:<br/>            page_title = self.page_title<br/>            Assert.equal(page_title, self._page_title,<br/>                         "Expected page title: %s. Actual page title: %s" % \<br/>&gt;                        (self._page_title, page_title))<br/><br/>pages/page.py:39: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;class unittestzero.Assert at 0x25193f8&gt;, first = u'Advanced Search | Mozilla Support', second = 'Mozilla Support'<br/>msg = u'Expected page title: Mozilla Support. Actual page title: Advanced Search | Mozilla Support'<br/><br/>    @classmethod<br/>    def equal(self, first, second, msg=None):<br/>&gt;       assert first == second, msg<br/><span class="pytest-error">E       AssertionError: Expected page title: Mozilla Support. Actual page title: Advanced Search | Mozilla Support</span><br/><br/>/usr/local/lib/python2.7/dist-packages/unittestzero.py:45: AssertionError<br/></div></td>
+            <td>
+              <div class="screenshot failed"><a href="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[refine_search_page]/screenshot.png"><img src="debug/tests_desktop_test_login_logout_TestLoginLogout/test_logout_from_pages[refine_search_page]/screenshot.png"/></a></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_questions.TestQuestions / test_that_questions_sorts_correctly_by_filter_equal_to_solved</td>
+            <td>3.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_questions.py', 50, 'Skipped: No questions present for filter=SOLVED')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_questions.TestQuestions / test_that_questions_sorts_correctly_by_filter_equal_to_no_replies</td>
+            <td>5.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_questions.py', 71, 'Skipped: No questions present for filter=No replies')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_browser_redirect_to_sumo[/1/firefox/4.0/WINNT/en-US/firefox-help/-/en-US/products/firefox?as=u]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_browser_redirect_to_sumo[/1/firefox/4.0/WINNT/en-US/firefox-f1/-/en-US/products/firefox?as=u]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_browser_redirect_to_sumo[/1/firefox/4.0/WINNT/en-US/firefox-osxkey/-/en-US/products/firefox?as=u]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_browser_redirect_to_sumo[/1/firefox/4.0/Darwin/en-US/firefox-help/-/en-US/products/firefox?as=u]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_browser_redirect_to_sumo[/1/firefox/4.0/Darwin/en-US/firefox-f1/-/en-US/products/firefox?as=u]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_browser_redirect_to_sumo[/1/firefox/4.0/Darwin/en-US/firefox-osxkey/-/en-US/products/firefox?as=u]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_browser_redirect_to_sumo[/1/firefox/4.0/Linux/en-US/firefox-help/-/en-US/products/firefox?as=u]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_browser_redirect_to_sumo[/1/firefox/4.0/Linux/en-US/firefox-f1/-/en-US/products/firefox?as=u]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_browser_redirect_to_sumo[/1/firefox/4.0/Linux/en-US/firefox-osxkey/-/en-US/products/firefox?as=u]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_kb_redirects_status_ok[/1/firefox/4.0/WINNT/en-US/prefs-main/]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_kb_redirects_status_ok[/1/firefox/4.0/Darwin/en-US/prefs-main/]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_kb_redirects_status_ok[/1/firefox/4.0/Linux/en-US/prefs-main/]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_kb_redirects_status_ok[/1/firefox/4.0/WINNT/en-US/prefs-clear-private-data/]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_kb_redirects_status_ok[/1/firefox/4.0/Darwin/en-US/prefs-clear-private-data/]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_kb_redirects_status_ok[/1/firefox/4.0/Linux/en-US/prefs-clear-private-data/]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_kb_redirects_status_ok[/1/firefox/4.0/WINNT/en-US/prefs-fonts-and-colors/]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_old_mobile_redirects[/1/mobile/4.0/android/en-US/firefox-help-/en-US/products/mobile]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_old_mobile_redirects[/1/mobile/4.0/iphone/en-US/firefox-help-/en-US/products/mobile]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_old_mobile_redirects[/1/mobile/4.0/nokia/en-US/firefox-help-/en-US/products/mobile]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_iphone_kb_redirects_status_ok[/1/firefox-home/4.0/iPhone/en-US]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="skipped">
+            <td>Skipped</td>
+            <td>tests.desktop.test_rewrites.TestRedirects / test_iphone_kb_redirects_status_ok[/1/firefox-home/4.0/iPhone/en-US/log-in]</td>
+            <td>0.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log skipped">('/home/bird/Dropbox/IT/AptanaWorkspace-MozWebQA2/sumo-tests-orig/tests/desktop/test_rewrites.py', 21, 'Skipped: Only run re-write tests on prod.')<br/></div></td>
+            <td>
+              <div class="screenshot skipped"></div></td></tr>
+          <tr class="xpassed">
+            <td>XPassed</td>
+            <td>tests.desktop.test_search.TestSearch / test_no_query_adv_forum_search</td>
+            <td>15.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log xpassed"></div></td>
+            <td>
+              <div class="screenshot xpassed"></div></td></tr>
+          <tr class="passed">
+            <td>Passed</td>
+            <td>tests.desktop.test_search.TestSearch / test_search_returns_either_term</td>
+            <td>3.0</td>
+            <td>
+              <ul class="debug-links"></ul></td>
+            <td>
+              <div class="log passed"></div></td>
+            <td>
+              <div class="screenshot passed"></div></td></tr></tbody></table></div></body></html>
