@@ -1,0 +1,193 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	min-width: 1200px;
+	color: #999;
+}
+
+h2 {
+	font-size: 16px;
+	color: black;
+}
+
+p {
+    color: black;
+}
+
+/******************************
+ * SUMMARY INFORMATION
+ ******************************/
+table {
+	border-collapse: collapse;
+}
+
+#configuration td {
+	padding: 5px;
+	border: 1px solid #E6E6E6;
+}
+
+#configuration tr:nth-child(odd) {
+	background-color: #f6f6f6;
+}
+
+/******************************
+ * TEST RESULT COLORS
+ ******************************/
+span.passed, .passed .col-result {
+	color: green;
+}
+span.skipped, span.xfailed, .skipped .col-result, .xfailed .col-result {
+	color: orange;
+}
+span.error, span.failed, span.xpassed, .failed .col-result, .xpassed .col-result  {
+	color: red;
+}
+
+/******************************
+ * RESULTS TABLE
+ * 
+ * 1. Table Layout
+ * 2. Debug
+ * 3. Small formatting - links
+ * 4. Sorting items
+ * 
+ ******************************/
+
+/*------------------
+ * 1. Table Layout
+ *------------------*/
+#results-table {
+	width: 100%;
+	padding: 5px;
+	overflow: hidden;
+}
+
+#results-table-head {
+	font-weight: bold;
+}
+
+.cell {
+	padding: 5px;
+	border: 1px solid #E6E6E6;
+	margin-left: -1px;
+	margin-top: -1px;
+	float: left;
+	white-space: nowrap;
+}
+
+.col-result { width: 5%; }
+.col-class { width: 25%; }
+.col-name { width: 45%; }
+.col-duration {	width: 6%; }
+.col-links { width: 14%; }
+
+.results-table-row {
+	/* start a new row for each row*/
+	clear: both;
+}
+
+
+.results-table-row .debug {
+
+}
+
+/*------------------
+ * 2. Debug section
+ *------------------*/
+
+.debug {
+	padding: 5px;
+	border-left: 1px solid #E6E6E6;
+	margin-left: -1px;
+	width: 100%;
+	float: left;
+	background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#faf6fa), to(#fff));
+	background-image: -webkit-linear-gradient(left, #faf6fa, #fff);
+	background-image: -moz-linear-gradient(left, #faf6fa, #fff);
+	background-image: -ms-linear-gradient(left, #faf6fa, #fff);
+	background-image: -o-linear-gradient(left, #faf6fa, #fff);
+}
+
+.log {
+	overflow-y: scroll;
+	height: 240px;
+	padding: 5px;
+	background-color: #e6e6e6;
+	color: black;
+	font-family: "Courier New", Courier, monospace;
+	float: left;
+	width: 50%;
+}
+
+.log:only-child {
+	height: inherit;
+	max-height: 240px;
+}
+
+.screenshot, .video {
+	height: 240px;
+	overflow: hidden;
+	width: 320px;
+	padding: 5px;
+	width: 23%;
+	float: left;
+}
+.screenshot img {
+	width: 320px;
+}
+
+/*if the result is passed or xpassed don't show debug row*/
+.passed .debug, .xpassed .debug {
+	display: none;
+}
+
+
+/*------------------
+ * 3. Small formatting
+ *------------------*/
+
+/*Make debug links grey*/
+a {
+	color: #999;
+}
+
+/*make nolinks blank*/
+.nolinks {
+	padding: 0px;
+	margin: 0px;
+	color: white;
+}
+
+/*------------------
+ * 4. Sorting items
+ *------------------*/
+.sortable {
+	cursor: pointer;
+}
+
+.sort-icon {
+	font-size: 0px;
+	float: left;
+	margin-right: 5px;
+	margin-top: 5px;
+	/*triangle*/
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+}
+
+.inactive .sort-icon {
+	/*finish triangle*/
+	border-top: 8px solid #E6E6E6;
+}
+
+.asc.active .sort-icon {
+	/*finish triangle*/
+	border-bottom: 8px solid #999;
+}
+
+.desc.active .sort-icon {
+	/*finish triangle*/
+	border-top: 8px solid #999;
+}
